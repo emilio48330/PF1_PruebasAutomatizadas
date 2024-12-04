@@ -1,0 +1,55 @@
+.logo {
+    width: 50px;
+  }
+  
+  .contenedor-img {
+    height: 500px;
+    & img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  .card {
+    -webkit-box-shadow: 8px 6px 15px -1px #9e9e9e;
+    box-shadow: 8px 6px 15px -1px #9e9e9e;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .img-publicidad {
+    height: 300px;
+  }
+  
+  .img-alta {
+    border-radius: 10px;
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f8f9fa;
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .img-whatsapp {
+    width: 50px;
+  }
+  
